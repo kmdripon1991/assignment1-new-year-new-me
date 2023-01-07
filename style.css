@@ -1,6 +1,7 @@
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -9,7 +10,6 @@
     width: 100%;
     height: 800px;
     background-image: url(./images/banner/banner1.png);
-
 }
 
 .banner-details {
@@ -48,10 +48,8 @@
     display: flex;
     padding: 130px;
 }
-
-.failure-story {
-    /* margin-right: 50px; */
-
+.image{
+    background-image:none,c;
 }
 
 .failure-heading {
@@ -95,7 +93,6 @@ ul li:before {
     margin-right: auto;
     width: 92.96px;
     height: 92.96px;
-    
   }
   .primary-my-plan-title{
     text-align: center;
@@ -115,13 +112,11 @@ ul li:before {
   /* mind set section */
 .container{
     margin: 130px 230px;
-    /* border-radius: 8px; */
 }
 .mind-set-image-container{
+    height: 47vh;
     background-image: url(./images/watch.png);
     
-    background-repeat: no-repeat;
-    border-radius: 8px;
   }
 .description-container{
     font-weight: 700;
@@ -155,7 +150,10 @@ ul li:before {
     margin-top: 16px;
     margin-bottom: 24px;
 }
-
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .contact{
     margin-top: 16px;
     margin-bottom: 32px;
@@ -170,12 +168,13 @@ ul li:before {
     color: #FFFFFF;
 }
 .enter-yourp-mail{
-    border-radius: 8px;
+    border-radius: 9px;
     background-color: black;
     color: #F3F3F3;
     margin-top: 31px;
     margin-bottom: 16px;
     padding: 21px 158px 22px 21px;
+    
 }
 .btn-subscribe{
     padding: 20px 36px;
