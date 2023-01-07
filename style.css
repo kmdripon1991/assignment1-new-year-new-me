@@ -51,6 +51,10 @@
 .image{
     background-image:none,c;
 }
+.failure-story {
+    /* margin-right: 50px; */
+
+}
 
 .failure-heading {
     font-weight: 700;
